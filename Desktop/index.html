@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body>
+      <h1>Survey Form</h1>
+      <div class = "register">
+        <h2>Please Fill the form</h2>
+<script>
+function myFunction() {
+  alert("Thank you!");
+}
+</script>
+      <form method="post" id="register" action="">
+          
+          <label> Enter your name: </label><br>
+          <input type="text" name="Fname" id="name"
+          placeholder="Enter your name:" required><br><br>
+          <label> Mobile Number: </label><br>
+          <select id="ph">
+            <option>+91</option>option>
+            <option>+99</option>option>
+            <option>+10</option>option>
+            <option>+30</option>option>
+            <option>+20</option>option>
+           </select>
+           <input type="number" name="Mnum" id="num"
+          placeholder="Enter your mobile number" required><br><br> 
+          <label> Email: </label><br>
+          <input type="email" name="email" id="name"
+          placeholder="Enter your Email" required><br><br>
+          <label> Which option best describes your current role?</label><br>
+          <select id="profile">
+            <option>Student</option>option>
+            <option>Professional</option>option>
+           </select><br><br>
+		<label> How likely is that you would recommend a friend?</label><br>
+          <input type = "radio" name="male" id="male"><span
+          id="male">&nbsp; Definitely </span>&nbsp;&nbsp;
+          <input type = "radio" name="male" id="male"><span
+          id="male">&nbsp; Maybe </span>&nbsp;&nbsp;
+	<input type = "radio" name="male" id="male"><span
+          id="male">&nbsp; Not Sure </span>&nbsp;&nbsp;
+	<br><br>
+	<label> What do you like most in: </label><br>
+          <select id="like">
+            <option>Select an option</option>option>
+            <option>Android Development</option>option>
+            <option>Web Development</option>option>
+            <option>Competetive Programming</option>option>
+           </select><br><br>
+		<label> Things that should be improved in the future(Check all that apply):</label><br>
+		<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Front-end Projects</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Car">
+  <label for="vehicle1"> Back-end Projects</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Boat">
+  <label for="vehicle1"> Data Visualization</label><br><br>
+          <input type="submit" value="Click here to check the form values" id ="sub"><br><br>
+	<button onclick="myFunction()">Submit</button>
+      </form>
+	</div>
+  </body>
+</html>
